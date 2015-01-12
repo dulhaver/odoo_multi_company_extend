@@ -1,0 +1,8 @@
+adds functionality to multi company setup in odoo v8
+
+by default odoo functionality a Sales Order can be issued only related to the company the user that is creating the SO is a user of.
+
+this module multi_company_extend provides a dropdown menu in the 
+"Other Information" tab of a SO/Quotation Form view where the Company 
+that a SO should be be related to can be choosen independently from a 
+list of all existing companies
