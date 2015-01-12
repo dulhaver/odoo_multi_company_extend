@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        
+        
+        <record id="sale_comp_writable_form_inherit" model="ir.ui.view">
+            <field name="name">sale.comp.writable.form.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale_stock.view_order_form_inherit"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="company_id" position="replace">
+                        <field name="company_id" />
+                    </field>
+                </data>
+            </field>
+        </record>
+    </data>
+</openerp>
